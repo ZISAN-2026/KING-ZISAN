@@ -80,7 +80,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓"  
+        global.config.BOTNAME || "𝐙𝐈𝐒𝐀𝐍 𝐁𝐎𝐓"  
     );  
 
     downloadImages(files => {  
