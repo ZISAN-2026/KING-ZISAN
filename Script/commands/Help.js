@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: %8
 ┃ 🤖 Bot Name: %9
-┃ 👑 Owner: 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓
+┃ 👑 Owner: 𝐙𝐈𝐒𝐀𝐍 𝐁𝐎𝐓
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -43,10 +43,10 @@ module.exports.languages = {
 
 // 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
 const helpImages = [
-    "https://i.imgur.com/nv59Phe.jpeg",
-    "https://i.imgur.com/nv59Phe.jpeg",
-    "https://i.imgur.com/nv59Phe.jpeg",
-    "https://i.imgur.com/nv59Phe.jpeg"
+    "https://ibb.co.com/YTWzgd38",
+    "https://ibb.co.com/YTWzgd38",
+    "https://ibb.co.com/YTWzgd38",
+    "https://ibb.co.com/YTWzgd38"
 ];
 
 
@@ -110,7 +110,7 @@ module.exports.run = function ({ api, event, args, getText }) {
             command.config.commandCategory || "Unknown",  
             command.config.cooldowns || 0,  
             prefix,  
-            global.config.BOTNAME || "𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓"  
+            global.config.BOTNAME || "𝐙𝐈𝐒𝐀𝐍 𝐁𝐎𝐓"  
         );  
 
         downloadImages(files => {  
@@ -143,8 +143,8 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓"}
-┃ 👑 Owner: 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐙𝐈𝐒𝐀𝐍 𝐁𝐎𝐓"}
+┃ 👑 Owner: 𝐙𝐈𝐒𝐀𝐍
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
