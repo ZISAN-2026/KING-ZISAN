@@ -15,8 +15,8 @@ module.exports.run = async function({ api, event }) {
         "আপনি যদি তৈরি করতে চান, তাহলে চলে যেতে পারেন আমাদের FACBOOK ID" +
         "সেখানে গিয়ে ভিডিও দেখে আপনি খুব সহজে বট তৈরি করে নিতে পারবেন। " +
         "তাহলে আর দেরি না করে এখনি চলে যান আমাদের FACBOOK ID।\n\n" +
-        "➤ Facbook link: https://www.facebook.com/share/1FLNgJhkaW/\n\n" +
-        "🔗 GitHub Fork Link: https://github.com/hsakkaak/KING-SHAAHLOM";
+        "➤ Facbook link: https://www.facebook.com/share/19Q5LKFUpA/\n\n" +
+        "🔗 GitHub Fork Link: https://github.com/ZISAN-2026/KING-ZISAN.git";
 
     return api.sendMessage(message, event.threadID, event.messageID);
 };
