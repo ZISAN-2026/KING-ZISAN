@@ -36,8 +36,8 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
 『 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 』
 
 ➤ 𝗕𝗼𝘁 𝗽𝗿𝗲𝗳𝗶𝘅 : [ ${prefix} ]
-➤ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲   : ─꯭─⃝‌‌𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓
-➤ 𝗕𝗼𝘁 𝗔𝗱𝗺𝗶𝗻 : 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌
+➤ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲   : ─꯭─⃝‌‌𝐙𝐈𝐒𝐀𝐍 𝐁𝐎𝐓
+➤ 𝗕𝗼𝘁 𝗔𝗱𝗺𝗶𝗻 : 𝐙𝐈𝐒𝐀𝐍
 
 『 𝐁𝐎𝐗 𝐈𝐍𝐅𝐎 』
 
@@ -47,10 +47,10 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
 
 『 𝐎𝐖𝐍𝐄𝐑 𝐈𝐍𝐅𝐎 』
 
-➤ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 
-➤ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸    : https://www.facebook.com/share/1FLNgJhkaW/
-➤ 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿  : m.me/61556167296208
-➤ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽    : https://wa.me/+8801794197687
+➤ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : 𝐙𝐈𝐒𝐀𝐍
+➤ 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸    : https://www.facebook.com/share/19Q5LKFUpA/
+➤ 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿  : m.me/100004039690397
+➤ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽    : https://wa.me/+8801743319347
 
 🌟━━━━━━━━━━━━━━━━━🌟
 　　　　𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂 𝗙𝗼𝗿 𝗨𝘀𝗶𝗻𝗴!
