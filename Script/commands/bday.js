@@ -34,7 +34,7 @@ module.exports.run = async ({ api, event }) => {
   const diffSeconds = Math.floor((diffMs / 1000) % 60);
 
   if (diffDays === 1) {
-    const tomorrowMessage = `👉 Admin SHAHADAT SAHU এর জন্মদিন আগামীকাল!
+    const tomorrowMessage = `👉 Admin 𝐙𝐈𝐒𝐀𝐍 এর জন্মদিন আগামীকাল!
 অবশেষে এডমিনের জন্মদিন ফাঁস হয়ে গেল 😜
 
 উইশ করতে ভুলবে না কিন্তু... 🥰`;
@@ -43,24 +43,24 @@ module.exports.run = async ({ api, event }) => {
 
   if (diffDays === 0) {
     const happyBirthdayMessage = `╔═══ 🎉 HAPPY BIRTHDAY 🎉 ═══╗
-║ OUR BOSS - 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 💖
+║ OUR BOSS - 𝐙𝐈𝐒𝐀𝐍 💖
 ╟──────────────────────
 ║ 🎂 আজ আমাদের Boss এর জন্মদিন!
 ║ 🥳 সবাই মন থেকে উইশ করো
 ║ ❤️ দোয়া ও ভালোবাসা জানাও
 ╟──────────────────────
 ║ 📘 Facebook :
-║ https://www.facebook.com/share/1FLNgJhkaW/
+║ https://www.facebook.com/share/19Q5LKFUpA/
 ║ 💬 Messenger :
-║ m.me/61556167296208
+║ m.me/100004039690397
 ║ 📱 WhatsApp :
-║ https://wa.me/+8801794197687
+║ https://wa.me/+8801743319347
 ╚══════════════════════╝`;
     return api.sendMessage(happyBirthdayMessage, event.threadID, event.messageID);
   }
 
   const countdownMessage = `╔═══════════════════╗
-║ 🎂 Admin 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌
+║ 🎂 Admin 𝐙𝐈𝐒𝐀𝐍
 ║ জন্মদিন কাউন্টডাউন ❤️‍🔥
 ║═══════════════════
 ║ 📅 Days : ${diffDays}
