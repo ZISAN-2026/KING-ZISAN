@@ -19,32 +19,30 @@ module.exports.run = async function ({ api, event }) {
 ╔═════════════════════ ✿
 ║ ✨ 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ✨
 ╠═════════════════════ ✿
-║ 👑 𝗡𝗮𝗺𝗲 : 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓
-║ 🧸 𝗡𝗶𝗰𝗸 𝗡𝗮𝗺𝗲 : 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 
+║ 👑 𝗡𝗮𝗺𝗲 : 𝐙𝐈𝐒𝐀𝐍 𝐒𝐀𝐑𝐃𝐀𝐑
+║ 🧸 𝗡𝗶𝗰𝗸 𝗡𝗮𝗺𝗲 : 𝐙𝐈𝐒𝐀𝐍 
 ║ 🎂 𝗔𝗴𝗲 : 𝟭𝟴+
-║ 💘 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻 : 𝗦𝗶𝗻𝗴𝗹𝗲
-║ 🎓 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻 : 𝗦𝘁𝘂𝗱𝗲𝗻𝘁
-║ 📚 𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻 : 𝗛𝗦𝗖
-║ 🏡 𝗔𝗱𝗱𝗿𝗲𝘀𝘀 : RONJPUR
+║ 💘 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻 : 𝐒𝐈𝐍𝐆𝐋𝐄
+║ 🎓 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻 : 𝐉𝐎𝐁
+║ 📚 𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻 : 𝐓𝐇𝐄 𝐄𝐍𝐃
+║ 🏡 𝗔𝗱𝗱𝗿𝗲𝘀𝘀 : 𝐃𝐇𝐀𝐊𝐀-𝐀𝐈𝐑𝐏𝐎𝐑𝐓
 ╠═════════════════════ ✿
 ║ 🔗 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗟𝗜𝗡𝗞𝗦
 ╠═════════════════════ ✿
 ║ 📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 :
-║ fb.com/61556167296208
+║ fb.com/100004039690397
 ║ 💬 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿 :
-║ m.me/61556167296208
+║ m.me/100004039690397
 ║ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
-║ wa.me/01794197687
-║ ✈️ 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 :
-║ t.me/yoursahu
+║ wa.me/01743319347
 ╚═════════════════════ ✿
 `;
 
   const images = [
-    "https://i.imgur.com/nv59Phe.jpeg",
-    "https://i.imgur.com/nv59Phe.jpeg",
-    "https://i.imgur.com/nv59Phe.jpeg",
-    "https://i.imgur.com/nv59Phe.jpeg"
+    "https://ibb.co.com/YTWzgd38",
+    "https://ibb.co.com/YTWzgd38",
+    "https://ibb.co.com/YTWzgd38",
+    "https://ibb.co.com/YTWzgd38"
   ];
 
   const randomImg = images[Math.floor(Math.random() * images.length)];
