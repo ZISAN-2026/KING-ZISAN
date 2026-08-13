@@ -28,13 +28,13 @@ module.exports.run = async function({ api, event }) {
   const { threadID } = event;
   
   const botPrefix = global.config.PREFIX || "/";
-  const botName = global.config.BOTNAME || "𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓";
+  const botName = global.config.BOTNAME || "𝐙𝐈𝐒𝐀𝐍 𝐁𝐎𝐓";
 
  
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     await api.changeNickname(`[ ${botPrefix} ] • ${botName}`, threadID, api.getCurrentUserID());
 
-    api.sendMessage("চ্ঁলে্ঁ এ্ঁসে্ঁছি্ঁ 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓 এঁখঁনঁ তোঁমাঁদেঁরঁ সাঁথেঁ আঁড্ডাঁ দিঁবঁ..!", threadID, () => {
+    api.sendMessage("চ্ঁলে্ঁ এ্ঁসে্ঁছি্ঁ 𝐙𝐈𝐒𝐀𝐍 𝐁𝐎𝐓 এঁখঁনঁ তোঁমাঁদেঁরঁ সাঁথেঁ আঁড্ডাঁ দিঁবঁ..!", threadID, () => {
       const randomGifPath = path.join(__dirname, "cache", "randomgif");
       const allFiles = fs.readdirSync(randomGifPath).filter(file =>
         [".mp4", ".jpg", ".png", ".jpeg", ".gif", ".mp3"].some(ext => file.endsWith(ext))
@@ -56,12 +56,12 @@ ${botPrefix}Help
 ${botPrefix}Info
 ${botPrefix}Admin
 
-★ যেকোনো অভিযোগ অথবা হেল্প এর জন্য এডমিন 𝐒𝐇𝐀𝐀𝐋𝐎𝐌কে নক করতে পারেন ★
-➤𝐌𝐞𝐬𝐬𝐞𝐧𝐠𝐞𝐫: https://www.facebook.com/share/1FLNgJhkaW/
-➤𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: 01794197687
+★ যেকোনো অভিযোগ অথবা হেল্প এর জন্য এডমিন 𝐙𝐈𝐒𝐀𝐍 কে নক করতে পারেন ★
+➤𝐌𝐞𝐬𝐬𝐞𝐧𝐠𝐞𝐫: https://www.facebook.com/share/19Q5LKFUpA/
+➤𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: 01743319347
 
 ❖⋆═══════════════════════⋆❖
-          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ 𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓`;
+          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ 𝐙𝐈𝐒𝐀𝐍 𝐁𝐎𝐓`;
 
       if (selected) {
         api.sendMessage({ body: messageBody, attachment: selected }, threadID);
@@ -108,7 +108,7 @@ ${botPrefix}Admin
 
 💌 🌺 𝐖 𝐄 𝐋 𝐂 𝐎 𝐌 𝐄 🌺 💌
 ╭─╼╾─╼🌸╾─╼╾───╮
-   ─꯭─⃝‌‌𝐒𝐇𝐀𝐀𝐇𝐋𝐎𝐌 𝐁𝐎𝐓 🌺
+   ─꯭─⃝‌‌𝐙𝐈𝐒𝐀𝐍 𝐁𝐎𝐓 🌺
 ╰───╼╾─╼🌸╾─╼╾─╯
 
 ❖⋆══════════════════════════⋆❖` : threadData.customJoin;
